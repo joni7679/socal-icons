@@ -1,0 +1,77 @@
+.ctalink-box {
+    position: fixed;
+    margin-top: 115px;
+    top: 325px;
+    left: 25px;
+    width: fit-content;
+    z-index: 999;
+}
+
+.ctalink {
+    transition: 0.5s ease;
+
+}
+
+.ctalink-box img {
+    width: 60px;
+    position: relative;
+    cursor: pointer;
+}
+
+.sub-ctalinks-box {
+    position: absolute;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.sub-ctalinks-box img {
+    width: 50px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.phone-ctaBtn {
+    bottom: 58px;
+    left: 24px;
+    opacity: 0;
+    z-index: -2;
+}
+
+.show-phone-ctaBtn {
+    bottom: 125px;
+    left: 8px;
+    opacity: 1;
+    z-index: 22;
+}
+
+.email-ctaBtn {
+    top: -91px;
+    left: 39px;
+    opacity: 0;
+    z-index: -3;
+}
+
+.show-email-ctaBtn {
+    top: -161px;
+    left: 64px;
+    opacity: 1;
+}
+
+.map-ctaBtn {
+    top: -97px;
+    left: 13px;
+    z-index: -5;
+    opacity: 0;
+}
+
+.show-map-ctaBtn {
+    top: -161px;
+    left: 73px;
+    opacity: 1;
+    z-index: 5;
+
+}
+
+/* .ctalink-roate {
+    transform: rotate(96deg);
+    transition: 0.5s ease;
+} */
